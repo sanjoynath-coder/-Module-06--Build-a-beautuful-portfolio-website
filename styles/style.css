@@ -42,7 +42,8 @@ background-color: #FFF8F3;
     color:white;
     padding: 18px 35px;
     border-radius: 5px;
-    border:none
+    border:none;
+    /* align-items: center; */
 }
 
 .section-title{
@@ -175,6 +176,7 @@ font-weight:bold;
 /* what i do section start here */
 .skills{
     margin-top:100px;
+    margin-bottom: 100px;
 }
 .skills-container{
     display: flex;
@@ -184,7 +186,7 @@ font-weight:bold;
 .skill{
     padding:30px;
     /* border: 1px solid black; */
-    box-shadow: 0px 6px 50px 0px #000000;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06); 
     border-radius: 5px;
 }
 .skill-img{
@@ -195,3 +197,40 @@ margin-bottom: 20px;
     
 }
 /* what i do section end here */
+
+/* resume section start here */
+
+.resume-section-title{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 100px;
+}
+.resume-container{
+    display: flex;
+    gap:24px;
+}
+
+.resume-title{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.education-section-title{
+    font-size: 25px;
+    font-weight:bold;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.education-section-subtitle{
+    margin-bottom: 20px;
+}
+.edication-section-description{
+    margin-bottom: 30px;
+}
+
+.resume-button{
+    margin-top: 50px;
+}
+
+/* resume section end here */
