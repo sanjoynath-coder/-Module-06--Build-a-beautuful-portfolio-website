@@ -234,3 +234,48 @@ margin-bottom: 20px;
 }
 
 /* resume section end here */
+
+/* footer section start here */
+footer{
+    margin-top: 100px;
+    display: flex;
+    padding:100px 200px;
+    gap:115px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-title{
+    font-size: 35px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.icon-container{
+    margin-top: 30px;
+    width:50%;
+}
+
+footer input[type="text"], footer input[type="email"]{
+    display: block;
+    height:64px;
+    width:100%;
+    font-size: 18px;
+    padding:10px 20px;
+    border-radius: 5px;
+    border:none;
+    margin-top: 24px;
+}
+footer textarea{
+    height: 180px;
+    width:100%;
+    margin-top: 24px;
+    padding-top: 18px;
+    padding-left: 30px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+}
+footer input[type="submit"]{
+    margin-top: 24px;
+}
+/* footer section end here */
